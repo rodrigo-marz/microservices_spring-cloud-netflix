@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "8000 Spring Boot <currency-exchange-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.roma.currencyexchangeservice.CurrencyExchangeServiceApplication",
+            "projectName": "currency-exchange-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "8001 Spring Boot <currency-exchange-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.roma.currencyexchangeservice.CurrencyExchangeServiceApplication",
+            "projectName": "currency-exchange-service",
+            "vmArgs": "-Dserver.port=8001"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LimitsServiceApplication<limits-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.roma.limitsservice.LimitsServiceApplication",
+            "projectName": "limits-service",
+            "args": ""
+        }
+    ]
+}
